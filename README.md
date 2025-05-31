@@ -45,7 +45,7 @@ DanteHomeLab.local
 Each city contains 20 employees spread across 5 departments (60 total employees throughout the company):  
 **Accounting, HR, IT, Management, Sales**
 Here is an example of what the city branches' users OU looks like:
-![Ann Arbor Users OU](./AnnArborUsers.png)
+![Ann Arbor Users OU](./AnnArberUsersOU.png)
 
 ---
 
