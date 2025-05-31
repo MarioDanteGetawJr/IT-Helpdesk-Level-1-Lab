@@ -45,28 +45,37 @@ DanteHomeLab.local
 Each city contains 20 employees spread across 5 departments (60 total employees throughout the company):  
 **Accounting, HR, IT, Management, Sales**
 Here is an example of what the city branches' users OU looks like:
-![Ann Arbor Users OU](./AnnArberUsersOU.png)
+
+![Ann Arbor Users OU](./AnnArborUsersOU.png)
 
 ---
 
-## 🔐 Group Management
+## 🔐 Group Management (Groups OU)
+I added a separate Groups OU to keep the Security Groups and Distribution Groups organized and easily managed.
 
 ### Security Groups
 - Type: **Global**
 - Purpose: File access, permissions, GPO targeting
-- Naming:
+- Naming Examples:
   - `Detroit_IT`
   - `AllStaff`
   - `Lansing_Accounting`
-  - etc.
+
+Here's what the Security Groups look like within Active Directory:
+
+![Security Groups OU](./SecurityGroups.png)
 
 ### Distribution Groups
 - Type: **Universal**
 - Purpose: Email/announcements (Exchange-compatible)
-- Naming:
+- Naming Examples:
   - `Detroit_IT_DG`
   - `AllStaff_DG`
   - `Ann Arbor_HR_DG`
+    
+Here's what the Distribution Groups look like within Active Directory:
+
+![Distribution Groups OU](./DistributionGroups.png)
 
 ---
 
